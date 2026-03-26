@@ -1,14 +1,14 @@
 # AI Research Paper Summarizer
 
-## 📌 Overview
+##  Overview
 
 The AI Research Paper Summarizer is a web-based application that helps users quickly understand research papers by extracting key insights from PDF documents. It combines Natural Language Processing (NLP), data visualization, and interactive features to improve research efficiency.
 
-## ❗ Problem Statement
+##  Problem Statement
 
 Research papers are often lengthy, complex, and time-consuming to read. Users struggle to quickly extract key information and insights. There is a need for an intelligent system that can automatically summarize research papers and provide meaningful insights in a short time.
 
-## 🎯 Objective
+##  Objective
 
 * Extract text from research papers (PDF format)
 * Generate concise summaries using AI
@@ -16,42 +16,42 @@ Research papers are often lengthy, complex, and time-consuming to read. Users st
 * Provide insights like keywords and word frequency
 * Support multiple languages for better accessibility
 
-## 🚀 Features
+##  Features
 
-### 📄 Core Functionalities
+###  Core Functionalities
 
 * Upload research papers in PDF format
 * Automatic text extraction
 * AI-based summary generation
 * Automatic paper title extraction
 
-### 💬 Interactive Features
+###  Interactive Features
 
 * Ask questions from the paper
 * Keyword-based answer retrieval
 * Highlight important sentences and keywords
 
-### 📊 Data Insights
+### Data Insights
 
 * Word frequency analysis
 * Keyword extraction
 * Word cloud visualization
 * Total words and sentence count
 
-### 🌐 Language Support
+###  Language Support
 
 * English
 * Tamil
 * Hindi
 * Malayalam
 
-### 🔐 User System
+###  User System
 
 * User Registration & Login
 * Password recovery
 * Admin dashboard
 
-## ⚙️ Backend (FastAPI)
+##  Backend (FastAPI)
 
 * Upload PDF files using API
 * Extract text using PyMuPDF (fitz)
@@ -60,7 +60,7 @@ Research papers are often lengthy, complex, and time-consuming to read. Users st
 * UUID-based paper ID generation
 * High-performance API handling
 
-## 🎨 Frontend (Streamlit)
+##  Frontend (Streamlit)
 
 * Upload and preview PDFs
 * Display title and summary
@@ -71,7 +71,7 @@ Research papers are often lengthy, complex, and time-consuming to read. Users st
 * Highlight important content
 * Interactive chat interface
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * FastAPI
@@ -86,7 +86,7 @@ Research papers are often lengthy, complex, and time-consuming to read. Users st
 
 **Note:** A sample database (`users.db`) is included for testing purposes.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 AI_Paper_Summarizer/
@@ -101,7 +101,7 @@ AI_Paper_Summarizer/
     └── sprint_plan.md
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Clone Repository
 
@@ -128,7 +128,7 @@ py -m uvicorn backend_api:app --reload
 py -m streamlit run app.py
 ```
 
-## 🔮 Future Scope
+##  Future Scope
 
 * Integration of advanced AI models (LLMs)
 * Improved question-answering accuracy
@@ -136,14 +136,14 @@ py -m streamlit run app.py
 * Cloud deployment (AWS / Render / Azure)
 * Mobile-friendly UI
 
-## 👩‍💻 Author
+##  Author
 
 Ezilarasi L
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License.
 
-## ⭐ Conclusion
+##  Conclusion
 
 This project demonstrates how AI, NLP, and web technologies can simplify research paper understanding, reduce reading time, and improve productivity for students and researchers.
