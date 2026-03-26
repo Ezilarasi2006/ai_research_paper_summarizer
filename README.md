@@ -84,33 +84,49 @@ Research papers are often lengthy, complex, and time-consuming to read. Users st
 * WordCloud
 * Google Translator API
 
+**Note:** A sample database (`users.db`) is included for testing purposes.
+
 ## 📂 Project Structure
 
+```
 AI_Paper_Summarizer/
 │── backend_api.py
 │── app.py
 │── users.db
 │── requirements.txt
 │── README.md
+│── docs/
+    ├── user_stories.md
+    ├── requirements.md
+    └── sprint_plan.md
+```
 
 ## ▶️ How to Run
 
 ### 1. Clone Repository
 
+```bash
 git clone https://github.com/Ezilarasi2006/ai_research_paper_summarizer.git
 cd ai_research_paper_summarizer
+```
 
 ### 2. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Run Backend
 
+```bash
 py -m uvicorn backend_api:app --reload
+```
 
 ### 4. Run Frontend
 
+```bash
 py -m streamlit run app.py
+```
 
 ## 🔮 Future Scope
 
