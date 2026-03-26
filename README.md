@@ -1,69 +1,91 @@
-AI Research Paper Summarizer
-#📌 Overview
+# AI Research Paper Summarizer
 
-The AI Research Paper Summarizer is a web-based application that helps users quickly understand research papers by extracting key insights from PDF documents. It combines NLP, visualization, and interactive features.
+## 📌 Overview
 
-#🚀 Features
+The AI Research Paper Summarizer is a web-based application that helps users quickly understand research papers by extracting key insights from PDF documents. It combines Natural Language Processing (NLP), data visualization, and interactive features to improve research efficiency.
 
-#📄 Core Functionalities
--Upload research papers in PDF format
--Automatic text extraction
--AI-based summary generation
--Extract paper title automatically
+## ❗ Problem Statement
 
-#💬 Interactive Features
--Ask questions from the paper
--Keyword-based answer retrieval
--Highlight important sentences and keywords
+Research papers are often lengthy, complex, and time-consuming to read. Users struggle to quickly extract key information and insights. There is a need for an intelligent system that can automatically summarize research papers and provide meaningful insights in a short time.
 
-#📊 Data Insights
--Word frequency analysis
--Keyword extraction
--Word cloud visualization
--Total words and sentence count
+## 🎯 Objective
 
-#🌐Language Support
--English
--Tamil
--Hindi
--Malayalam
+* Extract text from research papers (PDF format)
+* Generate concise summaries using AI
+* Enable users to ask questions from the paper
+* Provide insights like keywords and word frequency
+* Support multiple languages for better accessibility
 
-#🔐 User System
--User Registration & Login
--Password recovery
--Admin dashboard
+## 🚀 Features
 
-#⚙️Backend (FastAPI)
--Upload PDF files using API
--Extract text using PyMuPDF (fitz)
--Generate summaries
--Question-answering system
--UUID-based paper ID
--Fast API performance
+### 📄 Core Functionalities
 
-#🎨Frontend (Streamlit)
--Upload and preview PDFs
--Show title and summary
--Display insights
--Charts and visualizations
--Word cloud generation
--Multi-language support
--Highlight important content
--Chat interface
+* Upload research papers in PDF format
+* Automatic text extraction
+* AI-based summary generation
+* Automatic paper title extraction
 
-#🛠️ Technologies Used
--Python
--Streamlit
--FastAPI
--PyMuPDF (fitz)
--PyPDF2
--SQLite
--Pandas
--Matplotlib
--WordCloud
--Google Translator
+### 💬 Interactive Features
 
-#📂 Project Structure
+* Ask questions from the paper
+* Keyword-based answer retrieval
+* Highlight important sentences and keywords
+
+### 📊 Data Insights
+
+* Word frequency analysis
+* Keyword extraction
+* Word cloud visualization
+* Total words and sentence count
+
+### 🌐 Language Support
+
+* English
+* Tamil
+* Hindi
+* Malayalam
+
+### 🔐 User System
+
+* User Registration & Login
+* Password recovery
+* Admin dashboard
+
+## ⚙️ Backend (FastAPI)
+
+* Upload PDF files using API
+* Extract text using PyMuPDF (fitz)
+* Generate summaries
+* Question-answering system
+* UUID-based paper ID generation
+* High-performance API handling
+
+## 🎨 Frontend (Streamlit)
+
+* Upload and preview PDFs
+* Display title and summary
+* Show insights and analytics
+* Charts and visualizations
+* Word cloud generation
+* Multi-language support
+* Highlight important content
+* Interactive chat interface
+
+## 🛠️ Technologies Used
+
+* Python
+* FastAPI
+* Streamlit
+* PyMuPDF (fitz)
+* PyPDF2
+* SQLite
+* Pandas
+* Matplotlib
+* WordCloud
+* Google Translator API
+
+## 📂 Project Structure
+
 AI_Paper_Summarizer/
 │── backend_api.py
 │── app.py
@@ -71,28 +93,41 @@ AI_Paper_Summarizer/
 │── requirements.txt
 │── README.md
 
-#▶️ How to Run
-1. Clone Repository
--git clone https://github.com/Ezilarasi2006/ai_research_paper_summarizer.git
+## ▶️ How to Run
+
+### 1. Clone Repository
+
+git clone https://github.com/Ezilarasi2006/ai_research_paper_summarizer.git
 cd ai_research_paper_summarizer
-2. Install Dependencies
--pip install -r requirements.txt
-3. Run Backend
--py -m uvicorn backend_api:app --reload
-4. Run Frontend
--py -m streamlit run app.py
 
+### 2. Install Dependencies
 
-#🔮 Future Scope
--Integrate advanced AI models (LLMs)
--Improve Q&A accuracy
--Support multiple PDFs
--Deploy to cloud
--Mobile-friendly UI
+pip install -r requirements.txt
 
-#👩‍💻 Author
+### 3. Run Backend
+
+py -m uvicorn backend_api:app --reload
+
+### 4. Run Frontend
+
+py -m streamlit run app.py
+
+## 🔮 Future Scope
+
+* Integration of advanced AI models (LLMs)
+* Improved question-answering accuracy
+* Support for multiple PDF uploads
+* Cloud deployment (AWS / Render / Azure)
+* Mobile-friendly UI
+
+## 👩‍💻 Author
+
 Ezilarasi L
 
-#⭐ Conclusion
+## 📜 License
 
-This project demonstrates how AI and web technologies can simplify research paper understanding and improve productivity.
+This project is licensed under the MIT License.
+
+## ⭐ Conclusion
+
+This project demonstrates how AI, NLP, and web technologies can simplify research paper understanding, reduce reading time, and improve productivity for students and researchers.
